@@ -1,0 +1,289 @@
+/* ------------------ Base HTML ------------------ */
+
+a:hover {text-decoration: none;}
+fieldset legend{background:#F3f3f3;border:1px solid #ccc;font-size:14px;}
+fieldset-title{font-size:14px}
+ul li.leaf {list-style-image:none;list-style:none}
+
+
+/* ------------------ Drupal Base Theme/System HTML ------------------ */
+
+#page-title-wrapper{float:left; clear:both;width:99.5%;padding-bottom: 9px;
+margin: 20px 0;
+border-bottom: 1px solid #EEE;}
+#page-title{float:left;margin:0;max-width:500px;}
+#page-tabs{float:right}
+#main{margin-bottom:10px}
+#main-menu-links a {-khtml-border-radius-topleft: 4px;
+-khtml-border-radius-topright: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;}
+#sidebar-first{margin-right:15px}
+.sidebar-first #content {width: 700px;}
+
+/* ------------------ Footer ------------------ */
+
+#triptych{padding-top:10px}
+.region-triptych-first, .region-triptych-middle, .region-triptych-last {width:275px}
+#triptych .region-triptych-first,#triptych .region-triptych-middle{border-right:1px solid #fff}
+#triptych .block{border-bottom:none;padding:0 20px 0 0;min-height:290px}
+#triptych .region h2{font-size: 1.3em;text-align:left;color:#555;margin-top:0;}
+#triptych .region h2 [class^="icon-"], #triptych .region h2 [class*=" icon-"] {color: #F7A428;font-size:.9em;padding-right:6px}
+#triptych .region .more-link{text-align:left;margin-left:15px;}
+#triptych .block ul, #triptych .block ol {padding: 0 0 1.25em 1em;}
+.item-list ul li {padding: 0.2em 0.5em 0 0;}
+
+
+/* ------------------ Views Base HTML ------------------ */
+
+.views-header{clear:both}
+
+
+/* ------------------ Drupal View/Edit Tabs ------------------ */
+
+#page-tabs ul.nav {background:none; float:left;margin:-5px 0 0;border:none}
+#page-tabs ul.nav li.active{display:none}
+#page-tabs ul.nav li a{padding:6px 9px 2px;height:auto;gradient(top, white, #E6E6E6);margin-left:3px}
+
+
+/* ------------------ Sidebars ------------------ */
+
+.sidebar .block {border: 1px solid #DDD !important;border-radius: 5px;box-shadow: 0 0 9px #eee;-moz-border-radius: 5px;-moz-box-shadow: 0 0 9px #eee;-webkit-border-radius: 5px;-webkit-box-shadow: 0 0 9px #eee;padding:0}
+.sidebar h2{padding: 20px 10px 10px;background:#f6f6f6;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}
+.sidebar .content{padding: 5px 20px 15px 20px}
+
+
+/* ------------------ Font Awesome ------------------ */
+
+a [class^="icon-"], a [class*=" icon-"] {font-size: 1.25em;}
+
+
+/* ------------------ Main Menu ------------------ */
+
+#main-menu-links a {background: #676767;color:#fff;text-shadow:none}
+#main-menu-links a:hover,#main-menu-links a.active,#main-menu-links a.active-trail{color:#444!important}
+#main-menu-links a [class^="icon-"], #main-menu-links a [class*=" icon-"] {color: #F7A428;}
+
+div.view-content td.views-field-title a{font-weight: bold;}
+div#block-views-front-slideshow-block{width: 80%;margin-left: auto;	margin-right: auto;}  
+  
+fieldset#node_feature_full_group_evergreen, fieldset#node_feature_full_group_koha{width: 45%;}
+fieldset#node_feature_full_group_evergreen{float: left;}
+fieldset#node_feature_full_group_koha{float: right;}
+fieldset#node_feature_full_group_koha + div{clear: both;}
+
+.field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference ul.links {font-size: .95em;}
+.search-criteria{float:left;clear:both;font-size:14px}
+.search-criteria .criteria-label,.search-criteria .badge-info{float:left;margin: 0 2px;font-weight:normal}
+.search-criteria .badge-info i{margin:0 2px}
+
+
+/* ------------------ Feature Finder ------------------ */
+
+.view-csearch .view-header{float:left;margin:0 10px 10px;width:97%}
+.flag-wrapper .flag-message {
+position: absolute;
+top: -5px;
+line-height: normal;
+left: 30px;
+text-align: left;
+width: 90px;
+font-size: .8em;
+border: 1px solid #DDD;
+padding: 4px;
+background: white;
+border-radius: 5px;
+box-shadow: 0 0 9px #DDD;
+-moz-border-radius: 5px;
+-moz-box-shadow: 0 0 9px #DDD;
+-webkit-border-radius: 5px;
+-webkit-box-shadow: 0 0 9px #DDD;
+}
+#block-views-exp-csearch-page,#block-menu-menu-staff-menu{border:none;margin:0}
+#block-menu-menu-staff-menu{width:145px}
+#block-views-exp-csearch-page .popup-element-title,#block-menu-menu-staff-menu .popup-element-title{background-image:none;font-size:1.2em;
+background-color: #0088CC;
+    color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    margin: 2px;
+    padding: 12px 18px;
+	text-decoration:none;
+    line-height: 14px;
+    display: block;
+}
+#block-menu-menu-staff-menu .popup-element-title{background:#FAA732}
+#views-exposed-form-csearch-page #edit-keywords{width:245px}
+#views-exposed-form-csearch-page select{width:auto}
+#views-exposed-form-csearch-page #edit-evergreen{height:60px}
+#views-exposed-form-csearch-page #edit-koha{height:60px}
+.basic-search-results #result-item-count{margin-top:-30px}
+.basic-search-results #block-system-main{clear:both}
+
+
+/* ------------------ Adv Search ------------------ */
+
+#edit-field-feat-in-koha-value-wrapper select,#edit-field-feat-in-eg-value-wrapper select{width:135px;max-height:60px}
+#edit-tid-wrapper{clear:left}
+#edit-tid-wrapper select{width:190px;max-height:150px}
+#views-exposed-form-advanced-search-page-1 .views-submit-button{margin: 25px 0 0}
+.view-advanced-search th{white-space:nowrap}
+.view-advanced-search .views-field-title-1{width:170px}
+.view-advanced-search .views-field-title-1{font-weight:bold}
+.koha-specific-info em,.eg-specific-info em{margin:7px 0 0;font-weight:bold;color:#777;display:block}
+.koha-specific-info p,.eg-specific-info p{margin:0 0 6px}
+
+/* ------------------ Feature Page ------------------ */
+
+#edit-field-feature-category-tid{width:168px}
+.views-exposed-form .views-exposed-widget .form-submit {margin-top:0;}
+#block-views-exp-features-base-page label{display:none}
+
+
+/* ------------------ Feature Item Page ------------------ */
+
+.node-type-feature .center-wrapper{min-height:290px}
+.field-name-field-feature-category h3,field-name-field-feature-category ul,.field-name-field-feature-category li{line-height:normal;} 
+.node-feature-form{clear:both}
+#feature-desc{margin:25px 0 35px}
+.node-type-feature .panel-col-first,.node-type-feature .panel-col-last{width:46%;border:1px solid #ddd;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.node-type-feature .panel-col-first .inside,.node-type-feature .panel-col-last .inside{margin:0}
+.panel-col-first{margin-right:20px}
+.pane-node-field-feat-in-eg h2,.pane-node-field-feat-in-koha h2{margin:0;font-size:1em!important;padding: 15px 10px 5px;background:#f6f6f6;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}
+.pane-node-field-feat-in-eg h2{background:#cfea9d/*b8ed5e/*a7db4e/*8ecb26*/}
+.pane-node-field-feat-in-koha h2{background:#c6deef/*c7e3f8*/}
+.node-type-feature .panel-col-first .pane-content,.node-type-feature .panel-col-last .pane-content{padding: 5px 10px 15px;background:#fff;border-radius: 0 0 5px 5px;-moz-border-radius:0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;}
+
+
+/* ------------------ Related Features Block ------------------ */
+
+#block-views-related-features-block{min-height:490px}
+
+
+/* ------------------ Categories Page ------------------ */
+
+#content .region-content{clear:both}
+
+
+/* ------------------ Categories Menu ------------------ */
+
+#block-jquerymenu-1 h2{margin:0}
+#block-jquerymenu-1 .content{padding:0}
+#block-jquerymenu-1 li.expanded, #block-jquerymenu-1 li.collapsed, #block-jquerymenu-1 li.leaf {padding:0}
+#block-jquerymenu-1 li.parent span.closed,#block-jquerymenu-1 li.parent span.open{background-image:none;background-color:transparent}
+#block-jquerymenu-1 li.parent a{cursor:pointer}
+#block-jquerymenu-1 ul.jquerymenu {padding: 0;position:relative}
+#block-jquerymenu-1 ul ul{padding: 0 0 25px;}
+#block-jquerymenu-1 li.parent{border-bottom:1px solid #ddd;padding: 0}
+#block-jquerymenu-1 li.parent a{display:block;padding: 10px;color:#666}
+#block-jquerymenu-1 li.parent a:hover{background:#f4f4f4;}
+#block-jquerymenu-1 li.parent.open a,#block-jquerymenu-1 li.parent.open a:hover{background:#0090e4;color:#f9f9f9}
+#block-jquerymenu-1 li.parent ul a{padding: 5px 10px;background:#fff!important;color:#558BC4!important}
+#block-jquerymenu-1 li.parent ul a:hover{background:#f4f4f4!important;}
+#block-jquerymenu-1 li.parent.last{border-bottom:none}
+#block-jquerymenu-1 li span.parent {right: 10px;margin-left:0;margin-top:13px;color:#999;font-size:13px;}
+#block-jquerymenu-1 li.parent i{float:right}
+#block-jquerymenu-1 li.parent.open span.parent{color:#fff;}
+#block-jquerymenu-1 ul.jquerymenu ul a.active{color:#0090e4!important;background:#f4f4f4!important;}
+
+
+/* ------------------ Table Styles ------------------ */
+
+table{border: 0;border-spacing: 0;font-size: 0.857em;  margin: 10px 0;width: 100%;}
+table table,#footer-wrapper table {font-size: 1em;}
+table tr th{background: none;background: none;border-bottom-style: none;}
+table tr th,
+table tr th a,
+table tr th a:hover{color: inherit;font-weight: bold;}
+table tbody tr th{vertical-align: top;}
+tr td,tr th{padding: 4px 9px;border: none;  text-align: left; /* LTR */}
+#footer-wrapper tr td,#footer-wrapper tr th {border-color: transparent; border-color: transparent;}
+tr.odd{background: none; background: none;}
+tr,tr.even {background:none;background: none;}
+table ul.links {margin: 0;padding: 0;  font-size: 1em;}
+table ul.links li {padding: 0 1em 0 0;}
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {cursor: pointer;*cursor: hand;}
+table thead a [class^="icon-"], table thead a [class*=" icon-"] {color: #ccc;}
+table.table thead img{vertical-align: text-top;margin-left:2px}
+td.active{background:none}
+
+
+/* ------------------ Site Contact Form ------------------ */
+
+#contact-site-form #edit-name{width:400px}
+#contact-site-form #edit-mail{width:350px}
+#contact-site-form #edit-subject{width:400px}
+#contact-site-form #edit-captcha-form{width:500px}
+
+
+/* ------------------ Feature Management Tool ------------------ */
+
+.page-feature-management-tool #main{width:96%}
+#form-col-one,#form-col-two,#form-col-three,#form-col-four,#form-col-five{border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;background: #f6f6f6;border: 1px solid #eee;float: left;height:295px;margin-right: 15px;padding: 10px 10px 0;}
+#views-exposed-form-bulk-ops-page .views-exposed-widget{float:none;}
+#views-exposed-form-bulk-ops-page #edit-field-feat-in-koha-value-wrapper select, #views-exposed-form-bulk-ops-page #edit-field-feat-in-eg-value-wrapper select {max-height: 45px;}
+#views-form-bulk-ops-page .feature-edit a,#views-form-bulk-ops-page .feature-delete a{color:#fff;}
+#views-exposed-form-bulk-ops-page #edit-guid,#views-exposed-form-bulk-ops-page #edit-field-old-feature-id-value{width:60px}
+#views-exposed-form-bulk-ops-page .views-submit-button,
+#views-exposed-form-bulk-ops-page .views-reset-button{float:left;}
+.feature-mgmt-opts{float:right}
+th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-field-guid,th.views-field-nid,th.views-field-field-old-feature-id{white-space:nowrap}
+.views-field-field-feat-eg-notes,.views-field-field-feat-koha-notes{width:12%}
+
+
+/* ------------------ Feature Editing Form ------------------ */
+
+.feature-edit-form #feature-node-form label{font-weight:bold;font-size:14px;color:#444;}
+.feature-edit-form #main{width:auto;max-width:1200px}
+.feature-edit-form #edit-field-feature-category{margin:20px 0 10px;padding:10px 0;border-top:1px solid #ddd;}
+.feature-edit-form #hierarchical-select-0-wrapper{clear:both;width:99%}
+.feature-edit-form #edit-field-feature-category .hierarchical-select{float:left;margin:0 10px 10px 0}
+.feature-edit-form #edit-field-feature-category .dropbox{float:left;margin:-28px 0 10px 20px;}
+.feature-edit-form #edit-field-feature-category .description{clear:both;width:99%;padding-top:5px;margin-top:5px}
+#field-feat-also-values th label,#field-feat-otherfeat-values th label{font-size:13px}
+#field-feat-koha-notes-add-more-wrapper{}
+#field-feat-eg-notes-add-more-wrapper{}
+.group-ils-notes{padding:0 1em!important}
+.group-feature-koha,.group-feature-eg{float:left;width:47%;margin:0}
+.group-feature-koha{margin:0 35px 0 0}
+.group-feature-koha h3,.group-feature-eg h3{font-size:13px;margin:0;font-weight:bold;line-height:21px}
+.group-feature-koha .filter-wrapper,.group-feature-eg .filter-wrapper{font-size:13px;border:none;padding:0;margin:0;text-align:right;}
+.group-feature-koha .filter-wrapper select,.group-feature-eg .filter-wrapper select{font-size:12px;width:auto;height:auto; line-height:normal}
+.group-editor-notes-wrapper{padding-top:40px;clear: both;width: 70%;}
+#feature-node-form #edit-title{width:400px}
+#feature-node-form .form-region-main{min-height:450px;position:relative}
+#feature-node-form .form-actions{float:right;padding: 0;margin: 0 0 21px;background-color: transparent;border: none;position:absolute;top:10px;right:10px}
+#feature-node-form div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {padding: 1em 1em 0em;}
+#node_feature_form_group_ils_notes .fieldset-wrapper{margin-top:25px}
+#feature-node-form .group-feature-details fieldset{top:0}
+#edit-field-feat-otherfeat,#edit-field-feat-also{border-top:1px solid #ddd;padding-top:20px;clear:both}
+#edit-field-feat-otherfeat th,#edit-field-feat-also th{font-size:13px!important}
+.hierarchical-select-wrapper .dropbox-title {font-size:13px}
+#edit-field-feat-also .field-multiple-table .description{display:none;margin-top:8px}
+#edit-field-feat-otherfeat .tabledrag-toggle-weight-wrapper,#edit-field-feat-also .tabledrag-toggle-weight-wrapper{position:absolute;right:10px}
+#edit-field-feat-otherfeat tbody,#edit-field-feat-also tbody,#edit-field-feat-otherfeat tr,#edit-field-feat-also tr{border:none!important}
+#edit-field-feat-otherfeat table,#edit-field-feat-also table{width:80%}
+#edit-field-feat-otherfeat tr.draggable,#edit-field-feat-also tr.draggable{background:#efefef;border-bottom:4px solid #fff!important}
+#edit-field-feat-otherfeat tr.draggable label,#edit-field-feat-also tr.draggable label{font-size:12px;color:#666;margin-bottom:0}
+#edit-field-feat-otherfeat tr.draggable input,#edit-field-feat-also tr.draggable input{margin-bottom:0}
+#edit-field-feat-otherfeat .form-item .description,#edit-field-feat-also .form-item .description {clear: both;color: #777;float: right;font-size: 0.85em;width: 600px;}
+.field-add-more-submit
+
+
+/* ------------------ Feature Editing Form ------------------ */
+
+.my-features-table th.views-field-title{width:10%}
+.my-features-table th.views-field-field-feat-in-eg, .my-features-table th.views-field-field-feat-in-koha{width:33%}
+.my-features-table .in-koha,.my-features-table .in-eg{text-transform:lowercase}
+.my-features-table .moreinfo-header{font-weight:bold; font-style:italic;color:#454545;background:#f5f5f5;border-bottom:1px solid #ddd;padding:7px 7px 1px;margin:0 0 7px}
+.my-features-table .more-info-wrapper{line-height:normal;margin:9px 4px 4px;border:1px solid #ddd;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.my-features-table .more-info-wrapper p{padding:0 7px 7px}
