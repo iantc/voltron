@@ -25,6 +25,21 @@ border-top-right-radius: 4px;}
 #sidebar-first{margin-right:15px}
 .sidebar-first #content {width: 700px;}
 
+
+/* ------------------ Front Page Theming ------------------ */
+
+.front #page-title-wrapper{display:none}
+.front .node-sticky{background:transparent;border:none;padding:0}
+.front .feed-icon{display:none} 
+.front #content .region-content{margin:10px 20px 60px 60px}
+.front #block-system-main a{text-decoration:none!important}
+.front .view-front-slideshow .views-field-field-image{background:#f9f9f9}
+.front #main{width:890px}
+.front.one-sidebar #content {width:620px;}
+.front #block-tagadelic-1 a{float:left !important;padding:10px 20px 10px 0}
+.front #block-tagadelic-1{margin-bottom:20px}
+
+
 /* ------------------ Footer ------------------ */
 
 #triptych{padding-top:10px}
@@ -55,6 +70,8 @@ border-top-right-radius: 4px;}
 .sidebar .block {border: 1px solid #DDD !important;border-radius: 5px;box-shadow: 0 0 9px #eee;-moz-border-radius: 5px;-moz-box-shadow: 0 0 9px #eee;-webkit-border-radius: 5px;-webkit-box-shadow: 0 0 9px #eee;padding:0}
 .sidebar h2{padding: 20px 10px 10px;background:#f6f6f6;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}
 .sidebar .content{padding: 5px 20px 15px 20px}
+.front #block-block-2{border: none!important;border-radius:0;box-shadow: none;-moz-border-radius:0;-moz-box-shadow:none;-webkit-border-radius:0;-webkit-box-shadow:none;}
+.front #block-block-2 p{text-align:left!important}
 
 
 /* ------------------ Font Awesome ------------------ */
@@ -238,7 +255,7 @@ td.active{background:none}
 .feature-mgmt-opts{float:right}
 th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-field-guid,th.views-field-nid,th.views-field-field-old-feature-id{white-space:nowrap}
 .views-field-field-feat-eg-notes,.views-field-field-feat-koha-notes{width:12%}
-
+.no-results{clear:both;margin-top:50px}
 
 /* ------------------ Feature Editing Form ------------------ */
 
