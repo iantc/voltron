@@ -21,6 +21,7 @@
       jQuery('.menu-760 a').prepend('<i class="icon-magic"></i>  ');
       jQuery('.menu-774 a').prepend('<i class="icon-list-ul"></i>  ');
       jQuery('.menu-797 a').prepend('<i class="icon-envelope-alt"></i>  ');
+      jQuery('.menu-1330 a').prepend('<i class="icon-star"></i>  ');
       jQuery('.menu-1229 a').prepend('<i class="icon-search"></i>  ');
       jQuery('.views-table th a').append('  <i class="icon-sort"></i>');
 	  if (jQuery('.views-table th img').length) { // implies *not* zero
