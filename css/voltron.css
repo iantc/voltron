@@ -25,7 +25,7 @@ border-top-right-radius: 4px;}
 .sidebar-first #content {width: 700px;}
 
 
-/* ------------------ Front Page Theming ------------------ */
+/* ------------------ Alerts ------------------ */
 
 .alert-info a,.alert-info a:hover,.alert-info a:visited{color:#f7a428;}
 
@@ -38,6 +38,9 @@ border-top-right-radius: 4px;}
 .front #content .region-content{margin:10px 20px 60px 60px}
 .front #block-system-main a{text-decoration:none!important}
 #block-views-front-slideshow-block{background:#f9f9f9;border:1px solid #ddd;box-shadow:0 0 9px #ccc;-moz-box-shadow:0 0 9px #ccc;-webkit-box-shadow:0 0 9px #ccc;border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px}
+.views-slideshow-pager-field-item {float:left;padding:3px 10px;margin: 5px;background: #f2f2f2;font-size:13px;cursor:pointer;}
+.views-slideshow-pager-field-item.active{background: #ccc}
+#widget_pager_bottom_front_slideshow-block{float:right;}
 .front #main{width:890px}
 .front.one-sidebar #content {width:620px;}
 .front #block-tagadelic-1 a{float:left !important;padding:10px 20px 10px 0}
