@@ -115,7 +115,8 @@ fieldset#node_feature_full_group_koha + div{clear: both;}
 
 
 /* ------------------ Feature Finder ------------------ */
-
+#embedded-finder-block .popup-element-title{display: none!important;}
+#embedded-finder-block h2{display: none;}
 .page-csearch #main{width: auto;max-width: 1200px}
 .view-csearch .view-header{float:left;margin:0 10px 10px;width:97%}
 .flag-wrapper .flag-message {
