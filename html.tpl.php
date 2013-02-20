@@ -13,7 +13,7 @@
   <?php print $scripts; ?>
   <script type="text/javascript">
     jQuery(document).ready(function() {
-      jQuery('#block-views-exp-csearch-page span').prepend('<i class="icon-search"></i>  ');
+      jQuery('#block-block-7 span').prepend('<i class="icon-search"></i>  ');
       jQuery('#block-menu-menu-staff-menu span').prepend('<i class="icon-dashboard"></i>  ');
       jQuery('#HomeLink').prepend('<i class="icon-home"></i>  ');
       jQuery('.menu-885 a').prepend('<i class="icon-hand-right"></i>  ');
