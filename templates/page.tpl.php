@@ -122,7 +122,13 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
-
+<?php
+module_load_include('inc', 'popup', 'popup.api');
+popup(
+array('block' => true, 'module' => 'views', 'delta' =>
+'[-exp-csearch-page]')
+);
+?>
     <?php if ($main_menu): ?>
       <div id="main-menu" class="navigation">
         <?php print theme('links__system_main_menu', array(
