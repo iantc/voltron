@@ -93,7 +93,7 @@ a [class^="icon-"], a [class*=" icon-"] {font-size: 1.25em;}
 #main-menu-links a [class^="icon-"], #main-menu-links a [class*=" icon-"] {color: #F7A428;}
 
 div.view-content td.views-field-title a{font-weight: bold;}
-div#block-views-front-slideshow-block{width: 80%;margin-left: auto;	margin-right: auto;}
+div#block-views-front-slideshow-block{width: 680px;margin-left: auto;	margin-right: auto;}
 
 fieldset#node_feature_full_group_evergreen, fieldset#node_feature_full_group_koha{width: 45%;}
 fieldset#node_feature_full_group_evergreen{float: left;}
@@ -137,9 +137,9 @@ box-shadow: 0 0 9px #DDD;
 -webkit-border-radius: 5px;
 -webkit-box-shadow: 0 0 9px #DDD;
 }
-#block-views-exp-csearch-page,#block-menu-menu-staff-menu{border:none;margin:0}
+#block-block-7,#block-menu-menu-staff-menu{border:none;margin:0}
 #block-menu-menu-staff-menu{width:145px}
-#block-views-exp-csearch-page .popup-element-title,#block-menu-menu-staff-menu .popup-element-title{background-image:none;font-size:1.2em;
+#block-block-7 .popup-element-title,#block-menu-menu-staff-menu .popup-element-title{background-image:none;font-size:1.2em;
 background-color: #0088CC;
     color: #FFFFFF;
     border-radius: 5px 5px 5px 5px;
@@ -151,6 +151,7 @@ background-color: #0088CC;
     line-height: 14px;
     display: block;
 }
+#block-views-exp-csearch-page h2{display: none;}
 #block-menu-menu-staff-menu .popup-element-title{background:#FAA732}
 #views-exposed-form-csearch-page #edit-keywords{width:245px}
 #views-exposed-form-csearch-page select{width:auto}
@@ -169,7 +170,7 @@ background-color: #0088CC;
 #edit-tid-wrapper select{width:190px;max-height:150px}
 #views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: 25px 0 0}
 .view-advanced-search th{white-space:nowrap}
-.view-advanced-search .views-field-title-1{font-weight:bold}
+.view-advanced-search .feature-title{font-weight:bold}
 .koha-specific-info em,.eg-specific-info em{margin:7px 0 0;font-weight:bold;color:#777;display:block}
 .koha-specific-info p,.eg-specific-info p{margin:0 0 6px}
 
@@ -279,6 +280,7 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 .views-field-field-feat-eg-notes,.views-field-field-feat-koha-notes{width:12%}
 .no-results{clear:both;margin-top:50px}
 
+
 /* ------------------ Feature Editing Form ------------------ */
 
 .feature-edit-form #feature-node-form label{font-weight:bold;font-size:14px;color:#444;}
@@ -339,5 +341,7 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 /* ------------------ Common results table theme elements ------------------ */
 
+.views-table{clear:both}
 table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
 table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
+th.views-field-name{min-width: 150px}
