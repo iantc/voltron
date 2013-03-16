@@ -25,6 +25,15 @@ border-top-right-radius: 4px;}
 .sidebar-first #content {width: 700px;}
 
 
+/* ------------------ Drupal Base Theme/System HTML ------------------ */
+
+.no-sidebars #content {
+  clear: both;
+  max-width: 1170px;
+  width: auto;
+}
+
+
 /* ------------------ Alerts ------------------ */
 
 .alert-info a,.alert-info a:hover,.alert-info a:visited{color:#f7a428;}
@@ -164,20 +173,30 @@ background-color: #0088CC;
 
 /* ------------------ Adv Search ------------------ */
 
-.page-advanced-search #main{max-width:1200px;width:auto;}
-#edit-field-feat-in-koha-value-wrapper select,#edit-field-feat-in-eg-value-wrapper select{width:135px;max-height:60px}
+.page-advanced-search #main{max-width:1200px;width:auto;min-height: 550px}
 #edit-tid-wrapper{clear:left}
 #edit-tid-wrapper select{width:190px;max-height:150px}
-#views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: 25px 0 0}
+#views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: -25px 0 0}
 .view-advanced-search th{white-space:nowrap}
 .view-advanced-search .feature-title{font-weight:bold}
 .koha-specific-info em,.eg-specific-info em{margin:7px 0 0;font-weight:bold;color:#777;display:block}
 .koha-specific-info p,.eg-specific-info p{margin:0 0 6px}
-
+#views-exposed-form-advanced-search-page-1 #edit-title-op,
+#views-exposed-form-advanced-search-page-1 #edit-body-value-op{width: 150px}
+#views-exposed-form-advanced-search-page-1 #edit-tid-op{width:120px;}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-koha-value-op,
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-eg-value-op{width:100px;}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-eg-value,
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-koha-value{width: 60px;height:36px;}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-eg-notes-value-op,
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-op{width: 150px}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-eg-notes-value-widget-wrapper,
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-widget-wrapper{height:120px;float: none;}
+#views-exposed-form-advanced-search-page-1 #form-actions{margin-top:-50px;position: absolute;}
 
 /* ------------------ Feature Page ------------------ */
 
-#edit-field-feature-category-tid{width:168px}
+#edit-field-feature-category-tid{width:168px!important}
 .views-exposed-form .views-exposed-widget .form-submit {margin-top:0;}
 #block-views-exp-features-base-page label{display:none}
 
@@ -264,12 +283,16 @@ td.active{background:none}
 
 /* ------------------ Feature Management Tool ------------------ */
 
+#views-exposed-form-bulk-ops-page select{width:140px}
+#views-exposed-form-bulk-ops-page #edit-field-feat-in-eg-value,
+#views-exposed-form-bulk-ops-page #edit-field-feat-in-koha-value{width: 60px}
 .page-feature-management-tool #main{width:96%}
 #form-col-one,#form-col-two,#form-col-three,#form-col-four,#form-col-five{border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;background: #f6f6f6;border: 1px solid #eee;float: left;height:295px;margin-right: 15px;padding: 10px 10px 0;}
-#views-exposed-form-bulk-ops-page .views-exposed-widget{float:none;}
+#views-exposed-form-bulk-ops-page .views-exposed-widget{float:left;}
 #views-form-bulk-ops-page table.table{clear: both;}
-#views-form-bulk-ops-page fieldset{float:left;width:99%;margin-bottom:30px}
-#views-form-bulk-ops-page fieldset legend{width:400px}
+#views-form-bulk-ops-page fieldset{float:left;width:99%;margin-bottom:25px}
+#views-form-bulk-ops-page fieldset legend{width:400px;display: none;}
+#views-form-bulk-ops-page fieldset .fieldset-wrapper{display: inline;}
 #views-exposed-form-bulk-ops-page #edit-field-feat-in-koha-value-wrapper select, #views-exposed-form-bulk-ops-page #edit-field-feat-in-eg-value-wrapper select {max-height: 45px;}
 #views-form-bulk-ops-page .feature-edit a,#views-form-bulk-ops-page .feature-delete a{color:#fff;}
 #views-exposed-form-bulk-ops-page #edit-guid,#views-exposed-form-bulk-ops-page #edit-field-old-feature-id-value{width:60px}
@@ -279,6 +302,9 @@ td.active{background:none}
 th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-field-guid,th.views-field-nid,th.views-field-field-old-feature-id{white-space:nowrap}
 .views-field-field-feat-eg-notes,.views-field-field-feat-koha-notes{width:12%}
 .no-results{clear:both;margin-top:50px}
+#edit-items-per-page{width:60px!important;}
+#views-exposed-form-bulk-ops-page #form-actions{float: left;margin: 20px 0 0 20px}
+
 
 
 /* ------------------ Feature Editing Form ------------------ */
