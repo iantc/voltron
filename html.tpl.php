@@ -54,21 +54,8 @@
       jQuery('#block-block-1 h2').prepend('<i class="icon-ban-circle"></i>  ');
       jQuery('#block-block-4 h2').prepend('<i class="icon-external-link"></i>  ');
       jQuery('#triptych .region .more-link').addClass('btn btn-small');
-      jQuery('#views-exposed-form-bulk-ops-page .views-exposed-widgets').prepend('<div id="form-col-five"></div>');
-      jQuery('#views-exposed-form-bulk-ops-page .views-exposed-widgets').prepend('<div id="form-col-four"></div>');
-      jQuery('#views-exposed-form-bulk-ops-page .views-exposed-widgets').prepend('<div id="form-col-three"></div>');
-      jQuery('#views-exposed-form-bulk-ops-page .views-exposed-widgets').prepend('<div id="form-col-two"></div>');
-      jQuery('#views-exposed-form-bulk-ops-page .views-exposed-widgets').prepend('<div id="form-col-one"></div>');
-      jQuery('#edit-title-wrapper').appendTo('#form-col-one');
-      jQuery('#edit-body-value-wrapper').appendTo('#form-col-one');
-      jQuery('#edit-type-wrapper').appendTo('#form-col-one');
-      jQuery('#edit-field-feature-category-tid-wrapper').appendTo('#form-col-two');
-      jQuery('#edit-field-feat-in-eg-value-wrapper').appendTo('#form-col-three');
-      jQuery('#edit-field-feat-in-koha-value-wrapper').appendTo('#form-col-three');
-      jQuery('#edit-field-feat-eg-notes-value-wrapper').appendTo('#form-col-four');
-      jQuery('#edit-field-feat-koha-notes-value-wrapper').appendTo('#form-col-four');
-      jQuery('#edit-guid-wrapper').appendTo('#form-col-five');
-      jQuery('#edit-field-old-feature-id-value-wrapper').appendTo('#form-col-five');
+
+      jQuery('#edit-field-old-feature-id-value-widget-wrapper').appendTo('#form-col-five');
       jQuery('#views-form-bulk-ops-page .feature-edit a').prepend('<i class="icon-edit"></i>  ');
       jQuery('#views-form-bulk-ops-page .feature-delete a').prepend('<i class="icon-remove"></i>  ');
       jQuery('.group-feature-details input[type="submit"]').addClass('btn btn-small');
