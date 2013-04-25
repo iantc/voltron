@@ -182,14 +182,14 @@ background-color: #0088CC;
 .koha-specific-info em,.eg-specific-info em{margin:7px 0 0;font-weight:bold;color:#777;display:block}
 .koha-specific-info p,.eg-specific-info p{margin:0 0 6px}
 #views-exposed-form-advanced-search-page-1 #edit-title-op,
-#views-exposed-form-advanced-search-page-1 #edit-body-value-op{width: 150px}
+#views-exposed-form-advanced-search-page-1 #edit-body-value-op{width: 170px}
 #views-exposed-form-advanced-search-page-1 #edit-tid-op{width:120px;}
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-in-koha-value-op,
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-in-eg-value-op{width:100px;}
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-in-eg-value,
-#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-koha-value{width: 60px;height:36px;}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-in-koha-value{width: 60px;height:42px;}
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-eg-notes-value-op,
-#views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-op{width: 150px}
+#views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-op{width: 170px}
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-eg-notes-value-widget-wrapper,
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-widget-wrapper{height:120px;float: none;}
 #views-exposed-form-advanced-search-page-1 #form-actions{margin-top:-50px;position: absolute;}
