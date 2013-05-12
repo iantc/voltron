@@ -108,8 +108,12 @@ fieldset#node_feature_full_group_koha + div{clear: both;}
 
 
 /* ------------------ Feature Finder ------------------ */
+<<<<<<< HEAD
 #embedded-finder-block .popup-element-title{display: none!important;}
 #embedded-finder-block h2{display: none;}
+=======
+
+>>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
 .page-csearch #main{width: auto;max-width: 1200px}
 .view-csearch .view-header{float:left;margin:0 10px 10px;width:97%}
 .flag-wrapper .flag-message {
@@ -156,12 +160,23 @@ background-color: #0088CC;
 
 
 /* ------------------ Adv Search ------------------ */
+<<<<<<< HEAD
 .page-advanced-search #main{max-width:1200px;width:auto;min-height: 550px}
 #edit-tid-wrapper{clear:left}
 #edit-tid-wrapper select{width:190px;max-height:150px}
 #views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: -25px 0 0}
 .view-advanced-search th{white-space:nowrap}
 .view-advanced-search .feature-title{font-weight:bold}
+=======
+
+.page-advanced-search #main{max-width:1200px;width:auto;}
+#edit-field-feat-in-koha-value-wrapper select,#edit-field-feat-in-eg-value-wrapper select{width:135px;max-height:60px}
+#edit-tid-wrapper{clear:left}
+#edit-tid-wrapper select{width:190px;max-height:150px}
+#views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: 25px 0 0}
+.view-advanced-search th{white-space:nowrap}
+.view-advanced-search .views-field-title-1{font-weight:bold}
+>>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
 .koha-specific-info em,.eg-specific-info em{margin:7px 0 0;font-weight:bold;color:#777;display:block}
 .koha-specific-info p,.eg-specific-info p{margin:0 0 6px}
 #views-exposed-form-advanced-search-page-1 #edit-title-op,
@@ -177,6 +192,11 @@ background-color: #0088CC;
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-widget-wrapper{height:120px;float: none;}
 #views-exposed-form-advanced-search-page-1 #form-actions{margin-top:-50px;position: absolute;}
 
+<<<<<<< HEAD
+=======
+
+/* ------------------ Feature Page ------------------ */
+>>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
 
 /* ------------------ Feature Page ------------------ */
 #edit-field-feature-category-tid{width:168px!important}
@@ -336,6 +356,10 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ My features table ------------------ */
+<<<<<<< HEAD
+=======
+
+>>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
 .page-my-features #main{width:auto;max-width: 1200px;}
 .my-features-table .view-filters{float: right;margin-top:-35px;}
 .my-features-table .view-filters form{margin:0;}
@@ -355,7 +379,13 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ Common results table theme elements ------------------ */
+<<<<<<< HEAD
 .views-table{clear:both}
 table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
 table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
 th.views-field-name{min-width: 150px}
+=======
+
+table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
+table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
+>>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
