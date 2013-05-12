@@ -1,5 +1,4 @@
 /* ------------------ Base HTML ------------------ */
-
 a:hover {text-decoration: none;}
 fieldset legend{background:#F3f3f3;border:1px solid #ccc;font-size:14px;}
 fieldset-title{font-size:14px}
@@ -7,7 +6,6 @@ ul li.leaf {list-style-image:none;list-style:none}
 
 
 /* ------------------ Drupal Base Theme/System HTML ------------------ */
-
 #site-name a {color:#BBE2F8!important;text-decoration:none;}
 #page-title-wrapper{float:left; clear:both;width:99.5%;padding-bottom: 9px;margin: 20px 0;border-bottom: 1px solid #EEE;}
 #page-title{float:left;margin:0;max-width:500px;}
@@ -26,7 +24,6 @@ border-top-right-radius: 4px;}
 
 
 /* ------------------ Drupal Base Theme/System HTML ------------------ */
-
 .no-sidebars #content {
   clear: both;
   max-width: 1170px;
@@ -35,12 +32,10 @@ border-top-right-radius: 4px;}
 
 
 /* ------------------ Alerts ------------------ */
-
 .alert-info a,.alert-info a:hover,.alert-info a:visited{color:#f7a428;}
 
 
 /* ------------------ Front Page Theming ------------------ */
-
 .front #page-title-wrapper{display:none}
 .front .node-sticky{background:transparent;border:none;padding:0}
 .front .feed-icon{display:none}
@@ -57,7 +52,6 @@ border-top-right-radius: 4px;}
 
 
 /* ------------------ Footer ------------------ */
-
 #triptych{padding-top:10px}
 .region-triptych-first, .region-triptych-middle, .region-triptych-last {width:275px}
 #triptych .region-triptych-first,#triptych .region-triptych-middle{border-right:1px solid #fff}
@@ -70,19 +64,16 @@ border-top-right-radius: 4px;}
 
 
 /* ------------------ Views Base HTML ------------------ */
-
 .views-header{clear:both}
 
 
 /* ------------------ Drupal View/Edit Tabs ------------------ */
-
 #page-tabs ul.nav {background:none; float:left;margin:-5px 0 0;border:none}
 #page-tabs ul.nav li.active{display:none}
 #page-tabs ul.nav li a{padding:6px 9px 2px;height:auto;gradient(top, white, #E6E6E6);margin-left:3px}
 
 
 /* ------------------ Sidebars ------------------ */
-
 .sidebar .block {border: 1px solid #DDD !important;border-radius: 5px;box-shadow: 0 0 9px #eee;-moz-border-radius: 5px;-moz-box-shadow: 0 0 9px #eee;-webkit-border-radius: 5px;-webkit-box-shadow: 0 0 9px #eee;padding:0}
 .sidebar h2{padding: 20px 10px 10px;background:#f6f6f6;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}
 .sidebar .content{padding: 5px 20px 15px 20px}
@@ -91,24 +82,19 @@ border-top-right-radius: 4px;}
 
 
 /* ------------------ Font Awesome ------------------ */
-
 a [class^="icon-"], a [class*=" icon-"] {font-size: 1.25em;}
 
 
 /* ------------------ Main Menu ------------------ */
-
 #main-menu-links a {background: #676767;color:#fff;text-shadow:none}
 #main-menu-links a:hover,#main-menu-links a.active,#main-menu-links a.active-trail{color:#444!important}
 #main-menu-links a [class^="icon-"], #main-menu-links a [class*=" icon-"] {color: #F7A428;}
-
 div.view-content td.views-field-title a{font-weight: bold;}
 div#block-views-front-slideshow-block{width: 680px;margin-left: auto;	margin-right: auto;}
-
 fieldset#node_feature_full_group_evergreen, fieldset#node_feature_full_group_koha{width: 45%;}
 fieldset#node_feature_full_group_evergreen{float: left;}
 fieldset#node_feature_full_group_koha{float: right;}
 fieldset#node_feature_full_group_koha + div{clear: both;}
-
 .field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference ul.links {font-size: .95em;}
 .search-criteria{float:left;clear:both;font-size:14px}
 .search-criteria .criteria-label,.search-criteria .badge-info{float:left;margin: 0 2px;font-weight:normal}
@@ -116,11 +102,9 @@ fieldset#node_feature_full_group_koha + div{clear: both;}
 
 
 /* ------------------ Feature Browse ------------------ */
-
 #views-exposed-form-taxonomy-term-page{float:right;margin-top:-60px;}
 #views-exposed-form-taxonomy-term-page label {float:left;margin-right:5px;}
 #views-exposed-form-taxonomy-term-page select{float:right;width:50px;}
-
 
 
 /* ------------------ Feature Finder ------------------ */
@@ -172,7 +156,6 @@ background-color: #0088CC;
 
 
 /* ------------------ Adv Search ------------------ */
-
 .page-advanced-search #main{max-width:1200px;width:auto;min-height: 550px}
 #edit-tid-wrapper{clear:left}
 #edit-tid-wrapper select{width:190px;max-height:150px}
@@ -194,15 +177,14 @@ background-color: #0088CC;
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-widget-wrapper{height:120px;float: none;}
 #views-exposed-form-advanced-search-page-1 #form-actions{margin-top:-50px;position: absolute;}
 
-/* ------------------ Feature Page ------------------ */
 
+/* ------------------ Feature Page ------------------ */
 #edit-field-feature-category-tid{width:168px!important}
 .views-exposed-form .views-exposed-widget .form-submit {margin-top:0;}
 #block-views-exp-features-base-page label{display:none}
 
 
 /* ------------------ Feature Item Page ------------------ */
-
 .node-type-feature .center-wrapper{min-height:290px}
 .field-name-field-feature-category h3,field-name-field-feature-category ul,.field-name-field-feature-category li{line-height:normal;}
 .node-feature-form{clear:both}
@@ -217,17 +199,30 @@ background-color: #0088CC;
 
 
 /* ------------------ Related Features Block ------------------ */
-
 #block-views-related-features-block{min-height:490px}
 
 
 /* ------------------ Categories Page ------------------ */
-
 #content .region-content{clear:both}
+.view-taxonomy-term .feature-title-wrapper{
+  float: left;
+}
+.view-taxonomy-term a{
+  float: left;
+}
+.view-taxonomy-term .desc-toggle{
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-bottom: -4px;
+  cursor: pointer;
+}
+.view-taxonomy-term .feature-desc{
+  clear: both;
+}
 
 
 /* ------------------ Categories Menu ------------------ */
-
 #block-jquerymenu-1 h2{margin:0}
 #block-jquerymenu-1 .content{padding:0}
 #block-jquerymenu-1 li.expanded, #block-jquerymenu-1 li.collapsed, #block-jquerymenu-1 li.leaf {padding:0}
@@ -249,7 +244,6 @@ background-color: #0088CC;
 
 
 /* ------------------ Table Styles ------------------ */
-
 table{border: 0;border-spacing: 0;font-size: 0.857em;  margin: 10px 0;width: 100%;}
 table table,#footer-wrapper table {font-size: 1em;}
 table tr th{background: none;background: none;border-bottom-style: none;}
@@ -274,7 +268,6 @@ td.active{background:none}
 
 
 /* ------------------ Site Contact Form ------------------ */
-
 #contact-site-form #edit-name{width:400px}
 #contact-site-form #edit-mail{width:350px}
 #contact-site-form #edit-subject{width:400px}
@@ -282,7 +275,6 @@ td.active{background:none}
 
 
 /* ------------------ Feature Management Tool ------------------ */
-
 #views-exposed-form-bulk-ops-page select{width:140px}
 #views-exposed-form-bulk-ops-page #edit-field-feat-in-eg-value,
 #views-exposed-form-bulk-ops-page #edit-field-feat-in-koha-value{width: 60px}
@@ -306,9 +298,7 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 #views-exposed-form-bulk-ops-page #form-actions{float: left;margin: 20px 0 0 20px}
 
 
-
 /* ------------------ Feature Editing Form ------------------ */
-
 .feature-edit-form #feature-node-form label{font-weight:bold;font-size:14px;color:#444;}
 .feature-edit-form #main{width:auto;max-width:1200px}
 .feature-edit-form #edit-field-feature-category{margin:20px 0 10px;padding:10px 0;border-top:1px solid #ddd;}
@@ -346,7 +336,6 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ My features table ------------------ */
-
 .page-my-features #main{width:auto;max-width: 1200px;}
 .my-features-table .view-filters{float: right;margin-top:-35px;}
 .my-features-table .view-filters form{margin:0;}
@@ -366,7 +355,6 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ Common results table theme elements ------------------ */
-
 .views-table{clear:both}
 table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
 table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
