@@ -108,6 +108,7 @@ fieldset#node_feature_full_group_koha + div{clear: both;}
 
 
 /* ------------------ Feature Finder ------------------ */
+#block-views-exp-csearch-page{margin-bottom: 0}
 #embedded-finder-block .popup-element-title{display: none!important;}
 #embedded-finder-block h2{display: none;}
 .page-csearch #main{width: auto;max-width: 1200px}
@@ -152,6 +153,7 @@ background-color: #0088CC;
 #views-exposed-form-csearch-page #edit-koha{height:60px}
 .basic-search-results #result-item-count{margin-top:-30px}
 .basic-search-results #block-system-main{clear:both}
+.basic-search-results #block-system-main .view-content{clear: both;}
 #popup-active-overlay #edit-reset{display: none}
 
 
