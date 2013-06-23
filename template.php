@@ -1,7 +1,7 @@
 <?php
 function voltron_preprocess_html(&$variables) {
   //drupal_add_css('http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.no-icons.min.css', array('type' => 'external'));
-  drupal_add_css('//netdna.bootstrapcdn.com/bootswatch/2.1.0/spacelab/bootstrap.no-icons.min.css', array('type' => 'external','group' => CSS_THEME,'weight' => 100));
+  drupal_add_css('//netdna.bootstrapcdn.com/bootswatch/2.1.0/spacelab/bootstrap.no-icons.min.css', array('type' => 'external'));
   drupal_add_css('//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css', array('type' => 'external'));
   drupal_add_js('//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js','external');
 }
