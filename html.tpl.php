@@ -40,6 +40,7 @@
           )
       });
       jQuery('#block-jquerymenu-1 li.parent.closed a').append(' <i class="icon-chevron-right"></i>');
+      jQuery('.item-list .pager .pager-current').wrapInner('<a/>');
       jQuery('#block-jquerymenu-1 li.parent.open a:first').append(' <i class="icon-chevron-down"></i>');
       jQuery('#block-views-most-popular-block h2').prepend('<i class="icon-heart"></i>  ');
       jQuery('#block-block-1 h2').prepend('<i class="icon-ban-circle"></i>  ');
