@@ -105,6 +105,8 @@ fieldset#node_feature_full_group_koha + div{clear: both;}
 #views-exposed-form-taxonomy-term-page{float:right;margin-top:-60px;}
 #views-exposed-form-taxonomy-term-page label {float:left;margin-right:5px;}
 #views-exposed-form-taxonomy-term-page select{float:right;width:50px;}
+.pager-current a{background-color: #f1f1f1;}
+.item-list .pager li {float: left;}
 
 
 /* ------------------ Feature Finder ------------------ */
@@ -164,7 +166,6 @@ background-color: #0088CC;
 #views-exposed-form-advanced-search-page-1 .views-submit-button,#views-exposed-form-advanced-search-page-1 .views-reset-button{margin: -25px 0 0}
 .view-advanced-search th{white-space:nowrap}
 .view-advanced-search .feature-title{font-weight:bold}
-
 .page-advanced-search #main{max-width:1200px;width:auto;}
 #edit-field-feat-in-koha-value-wrapper select,#edit-field-feat-in-eg-value-wrapper select{width:135px;max-height:60px}
 #edit-tid-wrapper{clear:left}
@@ -187,7 +188,6 @@ background-color: #0088CC;
 #views-exposed-form-advanced-search-page-1 #edit-field-feat-koha-notes-value-widget-wrapper{height:120px;float: none;}
 #views-exposed-form-advanced-search-page-1 #form-actions{margin-top:-50px;position: absolute;}
 
-/* ------------------ Feature Page ------------------ */
 
 /* ------------------ Feature Page ------------------ */
 #edit-field-feature-category-tid{width:168px!important}
@@ -356,10 +356,6 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ My features table ------------------ */
-<<<<<<< HEAD
-=======
-
->>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
 .page-my-features #main{width:auto;max-width: 1200px;}
 .my-features-table .view-filters{float: right;margin-top:-35px;}
 .my-features-table .view-filters form{margin:0;}
@@ -379,13 +375,9 @@ th.views-field-field-feat-in-eg, th.views-field-field-feat-in-koha,th.views-fiel
 
 
 /* ------------------ Common results table theme elements ------------------ */
-<<<<<<< HEAD
 .views-table{clear:both}
 table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
 table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
 th.views-field-name{min-width: 150px}
-=======
-
 table th.views-field-field-feat-in-eg, table th.views-field-field-feat-in-koha{width:17.5%}
 table th a,table th a:link,table th a:hover,table th a:visited{text-decoration: none;}
->>>>>>> d11e566d63bdb52eb2028c7a8ab80768731f0929
